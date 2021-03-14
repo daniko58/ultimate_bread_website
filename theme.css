@@ -26,6 +26,8 @@ footer{
     height: 50px;
     padding-top: 10px;
     font-family: Arial;
+    height: auto;
+    width: auto;
 }
 
 .dropdown_div{
@@ -33,6 +35,8 @@ footer{
     display: inline-block;
     background-color: #ffff91;
     padding-right: 372px;
+    height: auto;
+    width: auto;
 }
 
 .dropdown_button{
@@ -44,6 +48,8 @@ footer{
     height: 30px;
     width: 100%;
     transition: 1s;
+    height: auto;
+    width: auto;
 }
 
 .dropdown_content{
@@ -52,6 +58,8 @@ footer{
     width: 100%;
     box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
     display: none;
+    height: auto;
+    width: auto;
 }
 
 .dropdown_content a{
@@ -61,10 +69,14 @@ footer{
     text-decoration: none;
     display: block;
     transition: 1s;
+    height: auto;
+    width: auto;
 }
 
 .dropdown_content a:hover{
     background-color:#c9a12f;
+    height: auto;
+    width: auto;
 }
 
 .dropdown_div:hover .dropdown_content{
@@ -78,6 +90,7 @@ footer{
 nav{
     background-color:#ffd260 ;
     width: auto;
+    height: auto;
 }
 section{
     background-image:url(images/bread.jpg) ;
@@ -100,6 +113,8 @@ section{
 .dropdown_button a{
     background-color: #c9a12f;
     transition: 1s;
+    height: auto;
+    width: auto;
 }
 
 .logo{

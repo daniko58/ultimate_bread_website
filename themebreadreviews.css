@@ -104,6 +104,8 @@ section{
 .dropdown_button a{
     background-color: #c9a12f;
     transition: 1s;
+    height: auto;
+    width: auto;
 }
 
 .logo{
@@ -112,7 +114,8 @@ section{
     position: absolute;
     left: 0%;
     top: 0%;
-    
+    height: auto;
+    width: auto;
 }
 
 .top1_div{
