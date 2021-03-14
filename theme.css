@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #ffd260;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    height: 150px;
+    padding-top: 20px;
+    font-family: Arial; 
+}
+
+section{
+    min-height: 500px;
+    font-family: Arial;
+    padding: 50px;
+}
+
+footer{
+    background-color: #ffd260;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+.dropdown_div{
+    position: relative;
+    display: inline-block;
+    background-color: #ffff91;
+    padding-right: 372px;
+}
+
+.dropdown_button{
+    background-color:#ffff91;
+    color: #000000;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    transition: 1s;
+}
+
+.dropdown_content{
+    position: absolute;
+    background-color: #ffff91;
+    width: 100%;
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
+    display: none;
+}
+
+.dropdown_content a{
+    font-family: Arial;
+    color: #000000;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+    transition: 1s;
+}
+
+.dropdown_content a:hover{
+    background-color:#c9a12f;
+}
+
+.dropdown_div:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_div:hover .dropdown_button{
+    background-color: #c9a12f;
+}
+
+nav{
+    background-color:#ffd260 ;
+    width: 100%;
+}
+section{
+    background-image:url(images/bread.jpg) ;
+    height: 100%;
+    mask-repeat: no-repeat;
+}
+.mybutton{
+    background-color: #c9a12f;
+    border: none;
+    color:#000000;
+    padding: 16px 32px;
+    font-size: 16px;
+    opacity: 0.5;
+    animation-iteration-count: infinite;
+}
+
+.dropdown_button a{
+    background-color: #c9a12f;
+    transition: 1s;
+}
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
