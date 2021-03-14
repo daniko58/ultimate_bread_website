@@ -46,7 +46,6 @@ footer{
     font-size: 16px;
     cursor: pointer;
     height: 30px;
-    width: 100%;
     transition: 1s;
     height: auto;
     width: auto;
@@ -55,7 +54,6 @@ footer{
 .dropdown_content{
     position: absolute;
     background-color: #ffff91;
-    width: 100%;
     box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
     display: none;
     height: auto;
