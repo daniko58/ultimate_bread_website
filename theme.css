@@ -77,7 +77,7 @@ footer{
 
 nav{
     background-color:#ffd260 ;
-    width: 100%;
+    width: auto;
 }
 section{
     background-image:url(images/bread.jpg) ;
@@ -88,6 +88,8 @@ section{
 .mybutton{
     background-color: #c9a12f;
     border: none;
+    height: auto;
+    width: auto;
     color:#000000;
     padding: 16px 32px;
     font-size: 16px;
