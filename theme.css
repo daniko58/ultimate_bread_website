@@ -81,7 +81,8 @@ nav{
 }
 section{
     background-image:url(images/bread.jpg) ;
-    height: 100%;
+    height: auto;
+    width: auto;
     mask-repeat: no-repeat;
 }
 .mybutton{
