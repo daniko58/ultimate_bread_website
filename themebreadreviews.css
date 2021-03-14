@@ -207,3 +207,8 @@ section{
   left: 10%rem;
   list-style-image: initial;
 }
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+}
