@@ -109,13 +109,11 @@ section{
 }
 
 .logo{
-    width: 10rem;
-    height: 10rem;
     position: absolute;
     left: 0%;
     top: 0%;
-    height: auto;
-    width: auto;
+    height: 5rem;
+    width: 5rem;
 }
 
 .top1_div{
@@ -208,7 +206,3 @@ section{
   list-style-image: initial;
 }
 
-.logo{
-    width: 5rem;
-    height: 5rem;
-}
