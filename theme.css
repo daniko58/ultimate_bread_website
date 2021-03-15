@@ -1,24 +1,24 @@
-body{
+body {
     margin: 0;
 }
 
-header{
+header {
     background-color: #ffd260;
     color: #000000;
     margin: 0;
     text-align: center;
     height: 150px;
     padding-top: 20px;
-    font-family: Arial; 
+    font-family: Arial;
 }
 
-section{
+section {
     min-height: 500px;
     font-family: Arial;
     padding: 50px;
 }
 
-footer{
+footer {
     background-color: #ffd260;
     color: #000000;
     margin: 0;
@@ -30,15 +30,15 @@ footer{
     width: auto;
 }
 
-.dropdown_div{
+.dropdown_div {
     position: relative;
     display: inline-block;
     background-color: #ffff91;
-    padding-right: 372px;
+    flex-basis: 150%;
 }
 
-.dropdown_button{
-    background-color:#ffff91;
+.dropdown_button {
+    background-color: #ffff91;
     color: #000000;
     border: none;
     font-size: 16px;
@@ -48,15 +48,15 @@ footer{
     transition: 1s;
 }
 
-.dropdown_content{
+.dropdown_content {
     position: absolute;
     background-color: #ffff91;
     width: 100%;
-    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.3);
     display: none;
 }
 
-.dropdown_content a{
+.dropdown_content a {
     font-family: Arial;
     color: #000000;
     padding: 12px 18px;
@@ -65,33 +65,37 @@ footer{
     transition: 1s;
 }
 
-.dropdown_content a:hover{
-    background-color:#c9a12f;
-}
-
-.dropdown_div:hover .dropdown_content{
-    display: block;
-}
-
-.dropdown_div:hover .dropdown_button{
+.dropdown_content a:hover {
     background-color: #c9a12f;
 }
 
-nav{
-    background-color:#ffd260 ;
-    width: max-content;
-    height: max-content;
+.dropdown_div:hover .dropdown_content {
+    display: block;
 }
-section{
-    background-image:url() ;
+
+.dropdown_div:hover .dropdown_button {
+    background-color: #c9a12f;
+}
+
+nav {
+    background-color: #ffd260;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    background-image: url();
     height: max-content;
     width: max-content;
     mask-repeat: no-repeat;
 }
-.mybutton{
+
+.mybutton {
     background-color: #c9a12f;
     border: none;
-    color:#000000;
+    color: #000000;
     width: max-content;
     height: max-content;
     padding: 16px 32px;
@@ -100,14 +104,14 @@ section{
     animation-iteration-count: infinite;
 }
 
-.dropdown_button a{
+.dropdown_button a {
     background-color: #c9a12f;
     transition: 1s;
     height: max-content;
     width: max-content;
 }
 
-.logo{
+.logo {
     position: absolute;
     left: 0%;
     top: 0%;
