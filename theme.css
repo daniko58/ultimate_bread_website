@@ -16,6 +16,7 @@ section {
     min-height: 500px;
     font-family: Arial;
     padding: 50px;
+    background-image: url(/images/bread.jpg);
 }
 
 footer {
