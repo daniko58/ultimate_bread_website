@@ -34,9 +34,7 @@ footer{
     position: relative;
     display: inline-block;
     background-color: #ffff91;
-    padding-right: auto;
-    height: max-content;
-    width: max-content;
+    padding-right: 372px;
 }
 
 .dropdown_button{
@@ -46,35 +44,29 @@ footer{
     font-size: 16px;
     cursor: pointer;
     height: 30px;
+    width: 100%;
     transition: 1s;
-    height: max-content;
-    width: max-content;
 }
 
 .dropdown_content{
     position: absolute;
     background-color: #ffff91;
+    width: 100%;
     box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.3);
     display: none;
-    height: max-content;
-    width: max-content;
 }
 
 .dropdown_content a{
     font-family: Arial;
     color: #000000;
-    padding: auto auto;
+    padding: 12px 18px;
     text-decoration: none;
     display: block;
     transition: 1s;
-    height: max-content;
-    width: max-content;
 }
 
 .dropdown_content a:hover{
     background-color:#c9a12f;
-    height: auto;
-    width: auto;
 }
 
 .dropdown_div:hover .dropdown_content{
@@ -87,22 +79,22 @@ footer{
 
 nav{
     background-color:#ffd260 ;
-    width: auto;
-    height: auto;
+    width: max-content;
+    height: max-content;
 }
 section{
-    background-image:url(images/bread.jpg) ;
-    height: auto;
-    width: auto;
+    background-image:url() ;
+    height: max-content;
+    width: max-content;
     mask-repeat: no-repeat;
 }
 .mybutton{
     background-color: #c9a12f;
     border: none;
-    height: auto;
-    width: auto;
     color:#000000;
-    padding: auto auto;
+    width: max-content;
+    height: max-content;
+    padding: 16px 32px;
     font-size: 16px;
     opacity: 0.5;
     animation-iteration-count: infinite;
@@ -111,14 +103,14 @@ section{
 .dropdown_button a{
     background-color: #c9a12f;
     transition: 1s;
-    height: auto;
-    width: auto;
+    height: max-content;
+    width: max-content;
 }
 
 .logo{
-    width: 10rem;
-    height: 10rem;
     position: absolute;
     left: 0%;
     top: 0%;
+    height: 5rem;
+    width: 5rem;
 }
