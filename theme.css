@@ -121,5 +121,6 @@ section {
 
 .bread {
     padding: 0%;
-    mask-position: 0%;
+    height: max-content;
+    width: max-content;
 }
