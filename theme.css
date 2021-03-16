@@ -85,12 +85,6 @@ nav {
     flex-direction: row;
 }
 
-section {
-    background-image: url();
-    height: max-content;
-    width: max-content;
-    mask-repeat: no-repeat;
-}
 
 .mybutton {
     background-color: #c9a12f;
@@ -122,5 +116,5 @@ section {
 .bread {
     padding: 0%;
     height: max-content;
-    width: max-content;
+    width: 100%;
 }
