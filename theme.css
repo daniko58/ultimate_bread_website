@@ -118,3 +118,8 @@ section {
     height: 5rem;
     width: 5rem;
 }
+
+.bread {
+    padding: 0%;
+    mask-position: 0%;
+}
